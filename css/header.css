@@ -1,0 +1,71 @@
+#header{
+    width: 100%;
+    z-index: 999;
+    margin-top: 20px;
+    position: absolute;
+}
+.container-head{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-logo-head{
+    width: 180px;
+    height: 32.73px;
+}
+.nav-head{
+    width: 60%;
+    margin-top: 7px;
+    justify-content: end;
+}
+.ul-head{
+    gap: 1.5rem;
+    text-align: end;
+}
+.libar-head{
+    font-size: 16px;
+    font-weight:bold;
+    position: relative;
+}
+.link-meno-head{
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+}
+.login-head{
+    gap: 8px;
+}
+.butten-head{
+    background-color: black !important;
+    padding: 5px 25px;
+}
+.link-btn-head{
+    color: white;
+    font-size: 15px;
+}
+.butten-svg-sabad{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.butten-svg-head svg{
+    width: 27px;
+    height: 27px;
+}
+.slide-image{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 24px;
+    color: gray;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 24px;
+    color: gray;
+}
+

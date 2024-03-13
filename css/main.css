@@ -1,0 +1,182 @@
+#main{
+    width: 100%;
+}
+.container-main{
+    width: 90%;
+    margin: 16px auto;
+}
+.searchbox{
+    width: 98%;
+    background-color: white;
+    padding: 30px 30px 80px 30px;
+}
+.div-matn-search{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.search-form{
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+}
+.input-search{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+.btn-search{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prudocts{
+    margin-top: 40px;
+}
+.ul-produc{
+    gap: 16px;
+}
+.title-prudoc{
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.line-prudoc{
+    width: 40%;
+    background: linear-gradient(90deg,#fff,#dadada,#dadada,#dadada,#dadada,#dadada,#fff);
+    height: 1px;
+    justify-content: right;
+}
+.new{
+    background-color: black;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.new a{
+    color: white;
+}
+.libar-produc{
+    padding: 3px 16px;
+    transition: all .3s;
+}
+.libar-produc:hover{
+    background-color: black;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.link-produc:hover{
+    color: white;
+}
+/* card */
+.cards{
+    margin-top: 35px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.article{
+    display: inline-block;
+    margin: 5px auto;
+    position: relative;
+}
+.imagecard{
+    width: 310px;
+    height: 400px;
+    text-align: center;
+}
+.matn-shirts{
+    text-align: center;
+    font-weight:bold;
+    font-family: yekan;
+}
+.matn-shirt{
+    text-align: center;
+    font-weight:bold;
+    font-family: yekan;
+}
+.money-shirts{
+    text-align: center;
+    font-weight:bold;
+    color: rgb(173, 132, 27);
+    font-family: yekan;
+}
+.money-hover{
+    text-align: center;
+    font-weight:bold;
+    color: rgb(173, 27, 27);
+    padding: 10px 120px;
+    font-family: yekan;
+}
+.span-color{
+    color: black;
+    font-weight: normal;
+}
+.buttoncardsabad{
+    padding: 10px 50px 10px 20px;
+    font-weight:bold;
+    background-color: black;
+    font-family: yekan;
+}
+.link-addsabad{
+    color: white;
+    text-decoration: none;
+}
+.divhovercard{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transform: scaleY(0);
+    transition: transform 0.5s;
+    transform-origin: center;
+    position: absolute;
+    background-color: #f4f4f4dd;
+}
+.article:hover .divhovercard{
+    transform: scaleY(1);
+}
+.article:hover .matn-shirts{
+    display: none;
+}
+.article:hover .money-shirts{
+    display: none;
+}
+.article:hover .imagecard{
+    transform: translateY(-5px);
+}
+.star{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span-st{
+    gap: 10px;
+}
+.stars{
+    color: #6c757d;
+}
+.svgsabad{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 35%;
+    bottom: 10%;
+}
+.div-all{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.btn-all{
+    background-color: black;
+    padding: 5px 16px;
+}
+.link-all{
+    color: white;
+    font-size: 16px;
+}
+.btn-all:hover{
+    background-color: rgb(44, 44, 44);
+}

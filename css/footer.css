@@ -1,0 +1,102 @@
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: #e9e8e8;
+    padding: 40px 0px;
+}
+.content-foot{
+    width: 85%;
+    margin: 0  auto;
+}
+.top-foot{
+    justify-content: space-between;
+    align-items: center;
+}
+.div-email{
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.add-email{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.input-email{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.btn-email{
+    border: none;
+    background-color: black;
+    padding: 3px 16px;
+}
+.btn-link{
+    color: white;
+}
+.tel-foot{
+    width: 50%;
+}
+.matn-tel{
+    color: #999;
+    font-size: 16px;
+    font-weight: 200;
+}
+.address-foot{
+    width: 50%;
+    margin-top: 20px;
+}
+.matn-address{
+    color: #999;
+    font-size: 16px;
+    font-weight: 200;
+}
+.down-foot{
+    margin-top: 40px;
+}
+.title-tel-foot{
+    gap: 8px;
+}
+.title-address-foot{
+    gap: 8px;
+}
+.left-foot{
+    width: 50%;
+}
+.img-logo-foot{
+    width: 105px;
+    height: 19px;
+}
+.left-foot-logo{
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-foot{
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    border-bottom: 1px solid gray;
+    margin: 20px 0px;
+}
+.ul-foot{
+    gap: 16px;
+}
+.copy-right{
+    gap: 8px;
+}
+.copy-right p{
+    font-size: 14px;
+    align-items: center;
+}
+.copy-right svg{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.matn-copy{
+    color: #999;
+    font-weight: 200;
+}
